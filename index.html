@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Vintage Store</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,500;1,6..96,700;1,6..96,800&family=Hedvig+Letters+Serif:opsz@12..24&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>   
+
+<div class="header-hero-section"><h1 class="header-hero"> The Vintage Store</h1></div>
+<div class="header-new"></div>
+    <div class="container">
+        <div class="product-grid">
+          <!-- Product 1 -->
+            <div class="product" >
+            <img src="Sofa 2-Camera.png" alt="">
+            <div class="model-container">
+            <model-viewer class ="sofa" src="Sofa 1.a.glb"
+                    alt="Product 1"
+                    ios-src="Sofa 1.a.usdz" 
+                    ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1.26" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-1.3704281397309346m 0.6154596145808385m 0.07365288837433873m" data-normal="-0.9885433734934562m -0.15093113988898815m 0.0013378093989706715m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Vintage Floral Print</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-1.1201239008793682m 0.15628140620764575m -0.26605932312188607m" data-normal="0.33954645643366704m 0.12536223814218883m -0.9321976792351079m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Gold Metallic Accent </div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    </model-viewer> 
+            </div>
+            <div class="product-info">
+              <div class="product-title">The Sage Green Floral Print Sofa</div>
+              <div class="product-price">$399.99</div>
+            </div>
+          </div>
+    
+          <!-- Product 2 -->
+          <div class="product">
+            <img src="TABLE 2-Camera copy.png" alt="Product 2">
+            <div class="model-container">
+                <model-viewer src="booktable.glb"
+                    alt="Product 1"
+                    ios-src="booktable.usdz"
+                    ar ar-modes="scene-viewer webxr quick-look" camera-controls poster="poster.webp" shadow-intensity="1.26" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.5375039405797013m 1.1001442575235858m -0.2796862620991111m" data-normal="-4.418687638008123e-14m -2.2363731966556892e-7m -0.999999999999975m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Concave Mirror Back</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="0.004744314840782415m 0.8782097156043402m 0.27066842274005276m" data-normal="0m 2.2770929774862434e-8m 0.9999999999999998m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Matte wood Shelfs</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="-1.3096676335530664m 0.732705716295223m 0.07357514703979814m" data-normal="-0.9999999999996623m 7.980916238935692e-7m 1.9664743777791932e-7m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Teel Cardboard</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+</model-viewer>
+ </model-viewer> 
+                </div>
+            <div class="product-info">
+              <div class="product-title">The Teal and Gold Table</div>
+              <div class="product-price">$229.99</div>
+            </div>
+          </div>
+    
+          <!-- Product 3 -->
+          <div class="product">
+            <img src="cabinet_green-Camera.png" alt="Product 3">
+            <div class="model-container">
+            <model-viewer class ="sofa" src="cabinet.glb"
+                    alt="Product 1"
+                    ios-src="cabinet.usdz"
+                    ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1.26" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="0.05096893181196824m 0.102071666316386m -0.07048787949658401m" data-normal="0.9361854607495276m -1.5463498027999535e-8m 0.3515064481360116m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Premium Matte Finish</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="-0.0018109196637674865m 0.07532131322339301m 0.06724819451914091m" data-normal="0.9361854607495276m -1.5463498027999535e-8m 0.3515064481360116m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Intricate Handmade Panels</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="0.036657582121192245m 0.05298779922255981m -0.03237171742830182m" data-normal="0.9361854607495276m -1.5463498027999535e-8m 0.3515064481360116m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Large Storage Space</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button></model-viewer> 
+            </div>
+            <div class="product-info">
+              <div class="product-title">The Rustic Teal Cabinet</div>
+              <div class="product-price">$279.99</div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
